@@ -4,7 +4,141 @@ body{
     font-family: Arial;
     /* box-shadow: 0.3em 0.3em 2em grey; */
 }
+@media screen and (max-width:390px){
+    .rock-paper-scissors-game{
+        background-color: rgb(25, 25, 25);
+        color: white;
+        font-family: Arial;
+        height: 100%;
+        display:grid;
+        grid-template-columns: 1fr;  
+        justify-items: center;
+        
+    }
+    
+    .rock-paper-scissors-title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 1.0rem;
+        align-items: center;
+    }
+    
+    .move-icon{
+        height: 50px;
+    }
+    
+    .move-button-container{
+        display:flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+     
+    
+    .move-button{
+        background-color: transparent;
+        border: 3px solid white;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin-right: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .result{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    .score{
+        margin-top: 60px;
+    }
+    
+    .reset-score-button, .auto-play-button{
+        background-color: white;
+        border: none;
+        font-size: 15px;
+        padding: 8px 15px;
+        cursor: pointer;
+    }
+}
 
+@media screen and (max-width:1024px) and (min-width:481px){
+    .rock-paper-scissors-game{
+        background-color: rgb(25, 25, 25);
+        color: white;
+        font-family: Arial;
+    
+        height: 100%;
+       
+        display:grid;
+        grid-template-columns: 1fr;  
+        justify-items: center;
+        
+    }
+    
+    .rock-paper-scissors-title{
+        font-size: 25px;
+        font-weight: bold;
+    
+        margin-top: 20px;
+        margin-bottom: 1.5rem;
+        align-items: center;
+    }
+    
+    .move-icon{
+        height: 50px;
+    }
+    
+    .move-button-container{
+        display:flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+     
+    
+    .move-button{
+        background-color: transparent;
+        border: 3px solid white;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin-right: 10px;
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .result{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    .score{
+        margin-top: 60px;
+    }
+    
+    .reset-score-button, .auto-play-button{
+        background-color: white;
+        border: none;
+        font-size: 15px;
+        padding: 8px 15px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:1025px){
 .rock-paper-scissors-game{
     background-color: rgb(25, 25, 25);
     color: white;
@@ -72,3 +206,4 @@ body{
     cursor: pointer;
 }
 
+}
