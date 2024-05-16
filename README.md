@@ -27,6 +27,8 @@ Auto-play feature
 Access the code
 To get access to my code, git clone, https://github.com/JosieEsi/Rock_Paper_Scissors-Game.git
 
+The site is live at, https://josieesi.github.io/Rock-Paper-Scissors/
+
 Acknowledgments:
 
 Inspired by the timeless game of Rock Paper Scissors.
